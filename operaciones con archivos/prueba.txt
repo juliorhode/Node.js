@@ -1,0 +1,3 @@
+Este es el contenido a guardar
+Esta es otra linea de texto
+Esta es otra nueva linea de texto

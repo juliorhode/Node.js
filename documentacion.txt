@@ -1,0 +1,22 @@
+Comandos
+********
+
+Con esto podemos comenzar a usa r nodejs en la consola
+ejecutamos el comando: node
+
+PS D:\Desktop\Curso NodeJs>node
+> let a=5;
+undefined
+> a
+5
+> if(a<5){
+... a=20;
+... }else{
+... a}
+5
+
+para ver la version de nodejs
+ejecutamos el comando: node -v
+
+PS D:\Desktop\Curso NodeJs> node -v
+v10.16.0
