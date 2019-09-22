@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peliculas</title>
+
+    
+    
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Registro de Peliculas</h1>
+        <form action="/new" method="post">
+            <p>
+                <label for="nombre">Nombre de la Pelicula</label><br>
+                <input type="text" name="nombre" id="nombre">
+            </p>
+            <p>
+                <label for="nombre">Calificacion</label><br>
+                <input type="range" min="0" max="10" name="califica" id="califica">
+            </p>
+            <input type="submit" value="Registrar" id="registra">
+        </form>
+    </div>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        }
+        form{
+            padding-bottom: 20px;
+        }
+        #contenedor{
+            margin: 0px 35%;
+            width: 400px;
+        }
+        input[type='text']{
+            padding: 10px;
+            width: 350px;
+        }input[type='submit']{
+            color: white;
+            background-color: rgb(18, 69, 163);
+            padding: 10px;
+            border: 0;
+        }
+        #peliculas div{
+            padding: 10px 0px;
+            border-bottom: solid 1px rgb(204, 204, 204);
+        }
+    </style>
+</body>
+</html>

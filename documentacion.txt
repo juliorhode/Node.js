@@ -20,3 +20,47 @@ ejecutamos el comando: node -v
 
 PS D:\Desktop\Curso NodeJs> node -v
 v10.16.0
+
+
+npm es un administrador de paquetes
+
+como instalar un paquete:
+1) estar en la carpeta raiz del proyecto
+2) ejecutar comando: npm install <nombre-paquete>
+
+https://underscorejs.org/#-
+
+
+ Servidor http simple para la carga rápida de contenido HTML estatico para hacer pruebas
+ -----------------------------------------------------------------------------------------
+ 
+ npm -g install httpster 
+ Luego, desde cualquier directorio donde se desee que se ejecute un servicio http, 
+ simplemente se ejecuta: httpster 
+ 
+Eso iniciará un servidor web en el puerto 3333 y permitirá publicar cualquier contenido estático 
+que se desee. 
+
+Si se desea cambiar el puerto o directorio desde el que se ejecuta el servidor, 
+se pasan las opciones -p o -d
+httpster -p 8080 -d ./public (ejemplo)
+
+Reinicioautomatico de nodejs al haber un cambio en uno de los archivos
+-----------------------------------------------------------------------
+Se puede utilizar cualquiera de los dos.
+
+node-dev https://www.npmjs.com/package/node-dev
+********
+Para instalarlo, se ejecuta el siguiente comando:
+npm install -g node-dev 
+
+Para utilizarlo, se ejecuta el siguiente comando:
+node-dev index.js (ejemplo)
+
+nodemon https://www.npmjs.com/package/nodemon
+*******
+Para instalarlo, se ejecuta el siguiente comando:
+npm install -g nodemon 
+Para utilizarlo, se ejecuta el siguiente comando:
+nodemon index.js (ejemplo)
+

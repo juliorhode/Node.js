@@ -13,10 +13,10 @@ http.createServer((req, res) => {
 </head>
 <body>
     <h1>hola a todos</h1>
-    <p>Bienvenido al servidor</p>
+    <h3>Bienvenido al servidor con reinicio automatico</h3>
 </body>
 </html>
     `);
-}).listen(3001);
+}).listen(3000);
 
 console.log('Servidor iniciado');
